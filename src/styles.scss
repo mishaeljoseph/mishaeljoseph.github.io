@@ -1,0 +1,34 @@
+// Theme tokens
+$bg: #000000;
+$text: #ffffff;
+$text-muted: #cfcfcf;
+$accent: #00ff9c;
+$elev-1: #0b0b0b;
+$elev-2: #111111;
+
+// Base typography
+body {
+  background: $bg;
+  color: $text;
+  font-family: 'Poppins', 'Inter', sans-serif;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-thumb {
+  background: $accent;
+  border-radius: 8px;
+  box-shadow: 0 0 8px $accent;
+}
+a {
+  color: $accent;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+a:hover {
+  color: $accent;
+  text-shadow: 0 0 8px $accent;
+}

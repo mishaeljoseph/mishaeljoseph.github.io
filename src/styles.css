@@ -1,0 +1,36 @@
+body {
+  background: #000;
+  color: #fff;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+/* Consistent box-sizing for layout calculations */
+*, *::before, *::after { box-sizing: border-box; }
+/* Make the page fill the viewport height */
+html, body { height: 100%; }
+body { display: flex; flex-direction: column; min-height: 100vh; }
+
+/* Navbar stays at top, main fills the rest */
+app-navbar { flex: 0 0 auto; display: block; }
+main { flex: 1 0 auto; display: block; min-height: 0; }
+/* Slightly larger text for all content below the navbar */
+main { font-size: 18px; line-height: 1.7; }
+
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+section {
+  padding: 2rem;
+}
+/* You can add global styles to this file, and also import other style files */

@@ -1,0 +1,35 @@
+.education-section {
+  padding: 3rem 2rem;
+  text-align: center;
+}
+.education-section h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.highlight {
+  color: #00ff9c;
+}
+.timeline {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+}
+.edu-card {
+  background: #111;
+  border-radius: 12px;
+  box-shadow: 0 2px 16px #0b0b0b;
+  padding: 2rem 1.5rem;
+  min-width: 280px;
+  color: #cfcfcf;
+  border-left: 6px solid #00ff9c;
+  text-align: left;
+}
+.edu-card h3 {
+  color: #fff;
+  margin-bottom: 0.5rem;
+}
+.edu-card p {
+  margin: 0;
+  color: #cfcfcf;
+}

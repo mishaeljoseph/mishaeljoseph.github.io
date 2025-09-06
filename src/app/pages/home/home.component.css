@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+/* Highlight color */
+.highlight {
+  color: #00ff9c;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 2rem;
+  flex-wrap: wrap;
+  min-height: 100%;
+}
+.hero-text {
+  max-width: 700px;
+  margin-left: 3rem;
+}
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+.hero-photo img {
+  width: 250px;
+  border-radius: 0;
+  border: none;
+  box-shadow: none;
+}
+
+/* Slightly shift the photo left */
+.hero-photo {
+  margin-right: 3rem;
+}
+
+/* Button */
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #00ff9c;
+  color: #000;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 6px;
+  transition: all 0.3s ease;
+}
+.btn:hover {
+  background: #00cc7a;
+  transform: scale(1.05);
+}
+
+/* About Section */
+.about {
+  padding: 3rem 2rem;
+  text-align: left;
+  margin-left: 3rem;
+}
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.about p {
+  max-width: 700px;
+  margin: 0;
+  font-size: 1rem;
+  color: #cfcfcf;
+}
